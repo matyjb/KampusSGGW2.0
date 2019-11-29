@@ -5,3 +5,5 @@ aplikacja kampusu SGGW
 master test 1
 
 test
+
+pull request plz
