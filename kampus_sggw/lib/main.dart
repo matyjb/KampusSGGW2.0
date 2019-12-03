@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:kampus_sggw/AboutPage.dart';
+import 'package:kampus_sggw/BuildingsListPage.dart';
+import 'package:kampus_sggw/HomePage.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,8 +11,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Text("kampus sggw"),
+        appBar: AppBar(
+          title: Text("appbar"),
+        ),
+        body: HomePage(),
       ),
+      routes: {
+        '/about': (context) => AboutPage(),
+        '/buildingsList': (context) => BuildingsListPage()
+      },
     );
   }
 }
