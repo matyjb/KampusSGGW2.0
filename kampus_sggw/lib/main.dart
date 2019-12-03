@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kampus_sggw/AboutPage.dart';
-import 'package:kampus_sggw/BuildingsListPage.dart';
-import 'package:kampus_sggw/HomePage.dart';
+import 'package:kampus_sggw/Pages/AboutPage.dart';
+import 'package:kampus_sggw/Pages/BuildingsListPage.dart';
+import 'package:kampus_sggw/Pages/HomePage.dart';
 
 void main() => runApp(MyApp());
 
