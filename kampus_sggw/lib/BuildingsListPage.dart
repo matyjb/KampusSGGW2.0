@@ -5,8 +5,10 @@ class BuildingsListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("BuildingsListPage"),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("buildings list"),
+      ),
     );
   }
 }

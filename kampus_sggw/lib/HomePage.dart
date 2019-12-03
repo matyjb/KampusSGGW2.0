@@ -5,7 +5,14 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("home page"),
+      ),
+      body: MaterialButton(
+        onPressed: () => Navigator.pushNamed(context, '/about'),
+        child: Text("about"),
+      ),
     );
   }
 }

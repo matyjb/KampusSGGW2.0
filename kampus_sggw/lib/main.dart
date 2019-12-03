@@ -10,13 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("appbar"),
-        ),
-        body: HomePage(),
-      ),
+      initialRoute: '/',
       routes: {
+        '/': (context) => HomePage(),
         '/about': (context) => AboutPage(),
         '/buildingsList': (context) => BuildingsListPage()
       },
