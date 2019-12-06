@@ -6,13 +6,25 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("home page"),
-      ),
-      body: MaterialButton(
-        onPressed: () => Navigator.pushNamed(context, '/about'),
-        child: Text("about"),
-      ),
-    );
+      appBar: PreferredSize(
+          preferredSize: Size.fromHeight(0.0),
+          child: AppBar(backgroundColor: Colors.lightGreen,)
+        ),
+        
+        body: Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: <Widget>[
+        IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.settings),
+          iconSize: 50,
+        ),
+        IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.list),
+          iconSize: 50,
+        ),
+      ],
+    ));
   }
 }
