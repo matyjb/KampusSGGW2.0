@@ -12,12 +12,9 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("home page"),
       ),
-      //body:MapSample()
-      body: MaterialButton(
-        onPressed: () => Navigator.pushNamed(context, '/about'),
-        child: Text("about"),
-        )
-        );}
+      body: MapSample(),
+    );
+  }
 }
 
 class MapSample extends StatefulWidget {

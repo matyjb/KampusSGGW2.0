@@ -1,4 +1,4 @@
-package com.example.kampus_sggw
+package com.silvers.kampus_sggw
 
 import android.os.Bundle
 
