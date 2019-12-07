@@ -9,10 +9,29 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("home page"),
+      appBar: PreferredSize(
+          preferredSize: Size.fromHeight(0.0),
+          child: AppBar(
+            backgroundColor: Colors.lightGreen,
+          )),
+      body: Stack(
+        children: [
+          MapSample(),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.settings),
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.list),
+              ),
+            ],
+          ),
+        ],
       ),
-      body: MapSample(),
     );
   }
 }
