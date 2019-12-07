@@ -19,28 +19,21 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
+              mini: true,
               onPressed: () {},
               foregroundColor: Colors.green[500],
               backgroundColor: Colors.white,
               child: Icon(
                 Icons.my_location,
-                size: 30,
               ),
             ),
           ),
-          Transform.scale(
-            scale: 1.3,
-            child: Padding(
-              padding: const EdgeInsets.all(13.0),
-              child: FloatingActionButton(
-                backgroundColor: Colors.green[500],
-                child: Icon(
-                  Icons.search,
-                  size: 35,
-                ),
-                onPressed: () {},
-              ),
+          FloatingActionButton(
+            backgroundColor: Colors.green[500],
+            child: Icon(
+              Icons.search,
             ),
+            onPressed: () {},
           ),
         ],
       ),
