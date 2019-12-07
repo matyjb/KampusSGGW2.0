@@ -21,11 +21,15 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+
+                },
                 icon: Icon(Icons.settings),
               ),
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/buildingsList');
+                },
                 icon: Icon(Icons.list),
               ),
             ],
