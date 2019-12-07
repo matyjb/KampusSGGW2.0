@@ -8,23 +8,28 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: PreferredSize(
           preferredSize: Size.fromHeight(0.0),
-          child: AppBar(backgroundColor: Colors.lightGreen,)
-        ),
-        
-        body: Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: <Widget>[
-        IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.settings),
-          iconSize: 50,
-        ),
-        IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.list),
-          iconSize: 50,
-        ),
-      ],
-    ));
+          child: AppBar(
+            backgroundColor: Colors.lightGreen,
+          )),
+      body: Stack(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.settings),
+                iconSize: 50,
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.list),
+                iconSize: 50,
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }
