@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:kampus_sggw/widgets/droplist.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);
@@ -19,13 +20,9 @@ class HomePage extends StatelessWidget {
           MapSample(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              IconButton(
-                onPressed: () {
-
-                },
-                icon: Icon(Icons.settings),
-              ),
+              DropList(),
               IconButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '/buildingsList');
