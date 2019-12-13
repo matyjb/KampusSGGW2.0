@@ -11,10 +11,35 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(0.0),
-          child: AppBar(
-            backgroundColor: Colors.lightGreen,
-          )),
+        preferredSize: Size.fromHeight(0.0),
+        child: AppBar(
+          backgroundColor: Colors.lightGreen,
+        ),
+      ),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: FloatingActionButton(
+              mini: true,
+              onPressed: () {},
+              foregroundColor: Colors.green[500],
+              backgroundColor: Colors.white,
+              child: Icon(
+                Icons.my_location,
+              ),
+            ),
+          ),
+          FloatingActionButton(
+            backgroundColor: Colors.green[500],
+            child: Icon(
+              Icons.search,
+            ),
+            onPressed: () {},
+          ),
+        ],
+      ),
       body: Stack(
         children: [
           MapSample(),
@@ -65,11 +90,6 @@ class MapSampleState extends State<MapSample> {
         onMapCreated: (GoogleMapController controller) {
           _controller.complete(controller);
         },
-      ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: _goToTheLake,
-        label: Text('To the lake!'),
-        icon: Icon(Icons.directions_boat),
       ),
     );
   }
