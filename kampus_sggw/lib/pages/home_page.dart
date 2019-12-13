@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
+              heroTag: "btn1",
               mini: true,
               onPressed: () {},
               foregroundColor: Colors.green[500],
@@ -33,6 +34,7 @@ class HomePage extends StatelessWidget {
           ),
           FloatingActionButton(
             backgroundColor: Colors.green[500],
+            heroTag: "btn2",
             child: Icon(
               Icons.search,
             ),
