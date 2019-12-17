@@ -1,730 +1,142 @@
 [
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "13.2",
+         "lon": "16.9",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   },
   {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
-  },
-  {
-    "id": "1",
-    "name": "Budynek 1",
-    "inside": {
-      "places": [
-        "To"
-      ]
-    },
-    "position": {
-      "lat": "52.16439",
-      "lon": "21.046822"
-    }
+    "id": "string",
+    "name": "string",
+    "places": [
+       {
+         "name": "string",
+         "lat": "number",
+         "lon": "number",
+         "floor": "string"
+       }
+    ],
+    "lat": "number",
+    "lon": "number"
   }
 ]
