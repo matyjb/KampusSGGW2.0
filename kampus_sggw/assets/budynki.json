@@ -1,753 +1,726 @@
 [
-{
-  "mapObjects": {
-    "mapObject": [
-      {
-        "id": "1",
-        "name": "Budynek 1",
-        "descriptions": {
-          "text": [
-            "Centrum Informatyczne",
-            "Laboratorium komputerowe",
-            "Pokój Administratorów"
-          ]
-        },
-        "position": {
-          "latitude": "52.16439",
-          "longitude": "21.046822"
-        }
-      },
-      {
-        "id": "2",
-        "name": "Budynek 2",
-        "descriptions": {
-          "text": [
-            "Wydawnictwo SGGW",
-            "Sekretarz Wydawnictwa",
-            "Sprzedaż książek",
-            "Centrum Innowacji i Transferu Technologii SGGW"
-          ]
-        },
-        "position": {
-          "latitude": "52.164759",
-          "longitude": "21.046522"
-        }
-      },
-      {
-        "id": "3",
-        "name": "Budynek 3",
-        "descriptions": {
-            "text": "Wydział Nauk Ekonomicznych" },
-        "position": {
-          "latitude": "52.165009",
-          "longitude": "21.047144"
-        }
-      },
-      {
-        "id": "4",
-        "name": "Budynek 4",
-        "descriptions": { "text": "Wydział Nauk Społecznych" },
-        "position": {
-          "latitude": "52.165391",
-          "longitude": "21.047831"
-        }
-      },
-      {
-        "id": "5",
-        "name": "Budynek 5",
-        "descriptions": { "text": "Wydział Nauk Ekonomicznych" },
-        "position": {
-          "latitude": "52.165206",
-          "longitude": "21.048453"
-        }
-      },
-      {
-        "id": "6",
-        "name": "Budynek 6",
-        "descriptions": {
-          "text": [
-            "Wydział Nauk Ekonomicznych",
-            "Bufet"
-          ]
-        },
-        "position": {
-          "latitude": "52.164469",
-          "longitude": "21.047895"
-        }
-      },
-      {
-        "id": "7",
-        "name": "Budynek 7",
-        "descriptions": {
-          "text": [
-            "Wydział Nauk Ekonomicznych",
-            "Klub Żeglarski"
-          ]
-        },
-        "position": {
-          "latitude": "52.164535",
-          "longitude": "21.048775"
-        }
-      },
-      {
-        "id": "8",
-        "name": "Budynek 8",
-        "descriptions": {
-          "text": [
-            "Administracja Uczelni",
-            "Biuro Spraw Studenckich",
-            "Uniwersytet Otwarty",
-            "Ludowy Zespół Artystyczny ,,Promni”",
-            "Biuro Współpracy Międzynarodowej",
-            "Biuro Międzynarodowych Projektów Badawczych",
-            "Audytor Wenętrzny, Kontrola Wewnętrzna",
-            "Chór Akademicki",
-            "Biuro Prasowe",
-            "Biuro Międzynarodowych Projektów Badawczych",
-            "Sekcja Gospodarki Nieruchomościami",
-            "Sekcja Planowania i Analiz",
-            "Zespół Radców Prawnych",
-            "Sala Konferencyjna",
-            "Sala Wideokonferencyjna",
-            "Centrum Edukacji Mulitimedialnej",
-            "Biuro Nauki"
-          ]
-        },
-        "position": {
-          "latitude": "52.163903",
-          "longitude": "21.049483"
-        }
-      },
-      {
-        "id": "9",
-        "name": "Budynek 9",
-        "descriptions": {
-          "text": [
-            "Aula Kryształowa",
-            "Bufet",
-            "Dział Gospodarczy nr III",
-            "Zespół Obsługi Audiowizualnej"
-          ]
-        },
-        "position": {
-          "latitude": "52.163377",
-          "longitude": "21.049097"
-        }
-      },
-      {
-        "id": "10",
-        "name": "Budynek 10",
-        "descriptions": {
-          "text": [
-            "Administracja Uczelni",
-            "KURS-AR",
-            "Rada Doktorantów",
-            "Związek Kombatantów RP",
-            "Soli Deo",
-            "Studenckie organizacje międzynarodowe: (IAAS, IVSA)",
-            "Samorząd Studentów SGGW",
-            "AZS SGGW",
-            "Biuro Promocji",
-            "Ursynowski Uniwersytet III wieku im. Juliana Ursyn Niemcewicza",
-            "Biuro Karier i Monitorowania Losów Absolwentów",
-            "Sekcja Gospodarowania Zasobami Mieszkaniowymi i Użytkowymi",
-            "Sekcja Socjalna",
-            "Związek Nauczycielstwa Polskiego",
-            "Biuro Spraw Osobowych",
-            "Sekcja Zamówień Publicznych",
-            "Rodzinne Ogorody Działkowe",
-            "NSZZ Solidarność",
-            "Kasa Zapomogowo Pożyczkowa",
-            "Akademicki Klub Turystyczny PTTK nr 16",
-            "Sekcja Obsługi Teletechnicznej",
-            "Centrala Telefoniczna Uczelni"
-          ]
-        },
-        "position": {
-          "latitude": "52.163396",
-          "longitude": "21.047895"
-        }
-      },
-      {
-        "id": "11",
-        "name": "Budynek 11",
-        "descriptions": {
-          "text": [
-            "Kwestura",
-            "Bank",
-            "Inspektorat Bezpieczeństwa i Dozoru Mienia",
-            "Dział Płac i Stypendiów",
-            "Kasa",
-            "Dział Ewidencji Majątku",
-            "Kwestor",
-            "Dział Finansowy",
-            "Dział Kosztów i Analiz",
-            "Dział Księgowości"
-          ]
-        },
-        "position": {
-          "latitude": "52.16389",
-          "longitude": "21.047391"
-        }
-      },
-      {
-        "id": "12",
-        "name": "Budynek 12",
-        "descriptions": {
-          "text": [
-            "Rektorat",
-            "Sale Senatu",
-            "Biuro Podawcze",
-            "Biuro Promocji",
-            "Biuro Organizacyjne",
-            "Rektor",
-            "Kanclerz",
-            "Prorektorzy",
-            "Sala Konferencyjna",
-            "Sala Kominkowa",
-            "Klub Profesorski „Pałacyk”"
-          ]
-        },
-        "position": {
-          "latitude": "52.164693",
-          "longitude": "21.050448"
-        }
-      },
-      {
-        "id": "13",
-        "name": "Budynek 13",
-        "descriptions": { "text": "Pracownie Sztuki Wydziału Ogrodnictwa, Biotechnologii i Architektury Krajobrazu" },
-        "position": {
-          "latitude": "52.16366",
-          "longitude": "21.05062"
-        }
-      },
-      {
-        "id": "15",
-        "name": "Budynek 15",
-        "descriptions": {
-          "text": [
-            "Administracja Uczelni",
-            "Inspektorat Ochrony Przeciwpożarowej",
-            "Dział Inwestycji i Nadzoru Technicznego",
-            "Inspektorat Bezpieczeństwa i Higieny Pracy",
-            "Dział Obsługi Ogólnej i Zaopatrzenia",
-            "Magazyn",
-            "Dział Remontów i Konserwacji"
-          ]
-        },
-        "position": {
-          "latitude": "52.163173",
-          "longitude": "21.05106"
-        }
-      },
-      {
-        "id": "16",
-        "name": "Budynek 16",
-        "descriptions": {
-          "text": [
-            "Wydział Technologii Drewna",
-            "Hala Maszyn Wydziału Technologii Drewna"
-          ]
-        },
-        "position": {
-          "latitude": "52.161435",
-          "longitude": "21.053184"
-        }
-      },
-      {
-        "id": "17",
-        "name": "Budynek 17",
-        "descriptions": { "text": "Wydział Inżynierii Produkcji" },
-        "position": {
-          "latitude": "52.160955",
-          "longitude": "21.052004"
-        }
-      },
-      {
-        "id": "18",
-        "name": "Budynek 18",
-        "descriptions": {
-          "text": [
-            "Wydział Inżynierii Produkcji",
-            "Bufet"
-          ]
-        },
-        "position": {
-          "latitude": "52.160553",
-          "longitude": "21.052208"
-        }
-      },
-      {
-        "id": "19",
-        "name": "Budynek 19",
-        "descriptions": { "text": "Wydział Inżynierii Produkcji" },
-        "position": {
-          "latitude": "52.160224",
-          "longitude": "21.052562"
-        }
-      },
-      {
-        "id": "20",
-        "name": "Budynek 20",
-        "descriptions": {
-          "text": [
-            "Hala Maszyn Wydziału Inżynierii Produkcji",
-            "Stacja Kontroli Pojazdów"
-          ]
-        },
-        "position": {
-          "latitude": "52.160639",
-          "longitude": "21.053656"
-        }
-      },
-      {
-        "id": "21",
-        "name": "Budynek 21",
-        "descriptions": { "text": "Wydział Inżynierii Produkcji" },
-        "position": {
-          "latitude": "52.160132",
-          "longitude": "21.051832"
-        }
-      },
-      {
-        "id": "22",
-        "name": "Budynek 22",
-        "descriptions": {
-          "text": [
-            "Klinika Małych Zwierząt",
-            "Audytorium",
-            "Dziekanat ds. Studiów Obcojęzycznych"
-          ]
-        },
-        "position": {
-          "latitude": "52.160046",
-          "longitude": "21.048238"
-        }
-      },
-      {
-        "id": "23",
-        "name": "Budynek 23",
-        "descriptions": {
-          "text": [
-            "Wydział Medycyny Weterynaryjnej",
-            "Wydział Nauk o Zwierzętach",
-            "Centrum Analityczne ",
-            "Bufet"
-          ]
-        },
-        "position": {
-          "latitude": "52.158348",
-          "longitude": "21.047294"
-        }
-      },
-      {
-        "id": "24",
-        "name": "Budynek 24",
-        "descriptions": {
-          "text": [
-            "Wydział Medycyny Weterynaryjnej",
-            "Bufet",
-            "Dział Gospodarczy nr II"
-          ]
-        },
-        "position": {
-          "latitude": "52.159704",
-          "longitude": "21.046908"
-        }
-      },
-      {
-        "id": "25",
-        "name": "Budynek 25",
-        "descriptions": { "text": "Zwierzętarnia" },
-        "position": {
-          "latitude": "52.158803",
-          "longitude": "21.045449"
-        }
-      },
-      {
-        "id": "26",
-        "name": "Budynek 26",
-        "descriptions": {
-          "text": [
-            "Hala sportowa",
-            "Korty Tenisowe (wewnętrzny i zewnętrzny)"
-          ]
-        },
-        "position": {
-          "latitude": "52.15821",
-          "longitude": "21.045191"
-        }
-      },
-      {
-        "id": "27",
-        "name": "Budynek 27",
-        "descriptions": {
-          "text": [
-            "Obiekty Sportowe",
-            "Basen",
-            "Sauna",
-            "Solarium",
-            "Gabinet Masażu",
-            "Bar"
-          ]
-        },
-        "position": {
-          "latitude": "52.157664",
-          "longitude": "21.045406"
-        }
-      },
-      {
-        "id": "28",
-        "name": "Budynek 28",
-        "descriptions": {
-          "text": [
-            "Studium Wychowania Fizycznego i Sportu",
-            "Pokój Nauczycieli",
-            "Obiekty Sportowe",
-            "Sale Sportowe",
-            "Siłownia",
-            "Aerobik",
-            "Centrum Językowe",
-            "Bankomat"
-          ]
-        },
-        "position": {
-          "latitude": "52.157256",
-          "longitude": "21.044666"
-        }
-      },
-      {
-        "id": "29",
-        "name": "Budynek 29",
-        "descriptions": { "text": "Stacja Uzdatniania Wody" },
-        "position": {
-          "latitude": "52.158223",
-          "longitude": "21.043689"
-        }
-      },
-      {
-        "id": "30",
-        "name": "Budynek 30",
-        "descriptions": {
-          "text": [
-            "Administracja Uczelni ",
-            "Dział Obsługi Ogólnej i Zaopatrzenia",
-            "Dział Aparatury Naukowo-Dydaktycznej",
-            "Sekcja Konserwacji Zieleni"
-          ]
-        },
-        "position": {
-          "latitude": "52.158697",
-          "longitude": "21.044333"
-        }
-      },
-      {
-        "id": "31",
-        "name": "Budynek 31",
-        "descriptions": { "text": "Dział Remontów i Konserwacji" },
-        "position": {
-          "latitude": "52.159013",
-          "longitude": "21.044"
-        }
-      },
-      {
-        "id": "32",
-        "name": "Budynek 32",
-        "descriptions": {
-          "text": [
-            "Wydział Nauk o Żywności",
-            "Wydział Nauk o Żywieniu Człowieka i Konsumpcji",
-            "Bufet"
-          ]
-        },
-        "position": {
-          "latitude": "52.160178",
-          "longitude": "21.04459"
-        }
-      },
-      {
-        "id": "33",
-        "name": "Budynek 33",
-        "descriptions": { "text": "Wydział Budownictwa i Inżynierii Środowiska" },
-        "position": {
-          "latitude": "52.161086",
-          "longitude": "21.046329"
-        }
-      },
-      {
-        "id": "34",
-        "name": "Budynek 34",
-        "descriptions": {
-          "text": [
-            "Wydział Leśny",
-            "Wydział Technologii Drewna",
-            "Wydział Zastosowań Informatyki i Matematyki",
-            "Biuro Organizacyjne - Kancelaria",
-            "Bufet",
-            "Dział Gospodarczy nr I"
-          ]
-        },
-        "position": {
-          "latitude": "52.162087",
-          "longitude": "21.046286"
-        }
-      },
-      {
-        "id": "35",
-        "name": "Budynek 35",
-        "descriptions": {
-          "text": [
-            "Wydział Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
-            "Wydział Nauk Społecznych",
-            "Sala konferencyjna",
-            "Bufet"
-          ]
-        },
-        "position": {
-          "latitude": "52.160389",
-          "longitude": "21.042595"
-        }
-      },
-      {
-        "id": "37",
-        "name": "Budynek 37",
-        "descriptions": {
-          "text": [
-            "Wydział Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
-            "Wydział Rolnictwa i Biologii",
-            "Bufet"
-          ]
-        },
-        "position": {
-          "latitude": "52.161916",
-          "longitude": "21.042681"
-        }
-      },
-      {
-        "id": "38",
-        "name": "Budynek 38",
-        "descriptions": {
-          "text": [
-            "Dom studencki LIMBA",
-            "Administracja Domów i Stołówek Studenckich",
-            "Przychodnia lekarska",
-            "Apteka",
-            "Stołówka Studencka przy DS LIMBA"
-          ]
-        },
-        "position": {
-          "latitude": "52.162975",
-          "longitude": "21.039151"
-        }
-      },
-      {
-        "id": "39",
-        "name": "Budynek 39",
-        "descriptions": {
-          "text": [
-            "Hotel IKAR",
-            "Bufet"
-          ]
-        },
-        "position": {
-          "latitude": "52.163482",
-          "longitude": "21.038647"
-        }
-      },
-      {
-        "id": "40",
-        "name": "Budynek 40",
-        "descriptions": { "text": "Dom studencki HILTON" },
-        "position": {
-          "latitude": "52.164074",
-          "longitude": "21.040717"
-        }
-      },
-      {
-        "id": "41",
-        "name": "Budynek 41",
-        "descriptions": {
-          "text": [
-            "Dom studencki GRAND",
-            "Przedszkole"
-          ]
-        },
-        "position": {
-          "latitude": "52.163712",
-          "longitude": "21.0412"
-        }
-      },
-      {
-        "id": "42",
-        "name": "Budynek 42",
-        "descriptions": { "text": "Dom studencki EDEN" },
-        "position": {
-          "latitude": "52.164101",
-          "longitude": "21.041511"
-        }
-      },
-      {
-        "id": "43",
-        "name": "Budynek 43",
-        "descriptions": { "text": "Dom studencki FENIKS" },
-        "position": {
-          "latitude": "52.163726",
-          "longitude": "21.042037"
-        }
-      },
-      {
-        "id": "44",
-        "name": "Budynek 44",
-        "descriptions": { "text": "Dom studencki BAZYLISZEK" },
-        "position": {
-          "latitude": "52.163739",
-          "longitude": "21.042831"
-        }
-      },
-      {
-        "id": "45",
-        "name": "Budynek 45",
-        "descriptions": {
-          "text": [
-            "Dom studencki ADARA",
-            "Siłownia SWFiS"
-          ]
-        },
-        "position": {
-          "latitude": "52.164068",
-          "longitude": "21.04238"
-        }
-      },
-      {
-        "id": "46",
-        "name": "Budynek 46",
-        "descriptions": { "text": "Dom studencki CEZAR" },
-        "position": {
-          "latitude": "52.164041",
-          "longitude": "21.043282"
-        }
-      },
-      {
-        "id": "47",
-        "name": "Budynek 47",
-        "descriptions": {
-          "text": [
-            "Dom studencki DENDRYT",
-            "Stołówka Studencka przy DS DENDRYT",
-            "Sklep",
-            "Bankomat EURONET"
-          ]
-        },
-        "position": {
-          "latitude": "52.163772",
-          "longitude": "21.043732"
-        }
-      },
-      {
-        "id": "48",
-        "name": "Budynek 48",
-        "descriptions": {
-          "text": [
-            "Biblioteka Główna",
-            "Oddział Informacji Naukowej ",
-            "Czytelnia",
-            "Czytelnia Dydaktyczna",
-            "Wypożyczalnia",
-            "Muzeum SGGW",
-            "Księgarnia",
-            "Kawiarnia"
-          ]
-        },
-        "position": {
-          "latitude": "52.164022",
-          "longitude": "21.044569"
-        }
-      },
-      {
-        "id": "49",
-        "name": "Budynek 49",
-        "descriptions": {
-          "text": [
-            "Centrum Wodne Wydziału Budownictwa i Inżynierii Środowiska",
-            "Sala Wystawowa"
-          ]
-        },
-        "position": {
-          "latitude": "52.159059",
-          "longitude": "21.049075"
-        }
-      },
-      {
-        "id": "50",
-        "name": "Budynek 50",
-        "descriptions": { "text": "Ogród Bylinowy" },
-        "position": {
-          "latitude": "52.162646",
-          "longitude": "21.052701"
-        }
-      },
-      {
-        "id": "51",
-        "name": "Pomnik, 51",
-        "descriptions": { "text": "Pomnik hrabiego Edwarda Raczyńskiego" },
-        "position": {
-          "latitude": "52.164704",
-          "longitude": "21.050086"
-        }
-      },
-      {
-        "id": "52",
-        "name": "Pomnik, 52",
-        "descriptions": { "text": "Pomnik Juliana Ursyna Niemcewicza" },
-        "position": {
-          "latitude": "52.163801",
-          "longitude": "21.048505"
-        }
-      },
-      {
-        "id": "53",
-        "name": "Pomnik, 53",
-        "descriptions": { "text": "Pomnik Władysława Grabskiego" },
-        "position": {
-          "latitude": "52.164408",
-          "longitude": "21.045541"
-        }
-      },
-      {
-        "id": "54",
-        "name": "Miejsce, 54",
-        "descriptions": {
-          "text": [
-            "Pomnik Stanisława Wawrzyńca Staszica",
-            "Parking Podziemnny"
-          ]
-        },
-        "position": {
-          "latitude": "52.162343",
-          "longitude": "21.045988"
-        }
-      },
-      {
-        "id": "55",
-        "name": "Pomnik, 55",
-        "descriptions": { "text": "Pomnik Dąb Jana Pawła II" },
-        "position": {
-          "latitude": "52.163602",
-          "longitude": "21.044865"
-        }
-      },
-      {
-        "id": "161",
-        "name": "Dziekanat 161",
-        "descriptions": { "text": "Klub Dziekanat 161" },
-        "position": {
-          "latitude": "52.162479",
-          "longitude": "21.039685"
-        },
-        "markerImageName": "dziekanat161"
-      }
-    ]
+  {
+    "id": "1",
+    "name": "Budynek 1",
+    "descriptions": {
+      "text": [
+        "Centrum Informatyczne",
+        "Laboratorium komputerowe",
+        "Pokój Administratorów"
+      ]
+    },
+    "position": {
+      "latitude": "52.16439",
+      "longitude": "21.046822"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Budynek 2",
+    "descriptions": {
+      "text": [
+        "Wydawnictwo SGGW",
+        "Sekretarz Wydawnictwa",
+        "Sprzedaż książek",
+        "Centrum Innowacji i Transferu Technologii SGGW"
+      ]
+    },
+    "position": {
+      "latitude": "52.164759",
+      "longitude": "21.046522"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Budynek 3",
+    "descriptions": {
+      "text": "Wydział Nauk Ekonomicznych"
+    },
+    "position": {
+      "latitude": "52.165009",
+      "longitude": "21.047144"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Budynek 4",
+    "descriptions": { "text": "Wydział Nauk Społecznych" },
+    "position": {
+      "latitude": "52.165391",
+      "longitude": "21.047831"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Budynek 5",
+    "descriptions": { "text": "Wydział Nauk Ekonomicznych" },
+    "position": {
+      "latitude": "52.165206",
+      "longitude": "21.048453"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Budynek 6",
+    "descriptions": {
+      "text": ["Wydział Nauk Ekonomicznych", "Bufet"]
+    },
+    "position": {
+      "latitude": "52.164469",
+      "longitude": "21.047895"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Budynek 7",
+    "descriptions": {
+      "text": ["Wydział Nauk Ekonomicznych", "Klub Żeglarski"]
+    },
+    "position": {
+      "latitude": "52.164535",
+      "longitude": "21.048775"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Budynek 8",
+    "descriptions": {
+      "text": [
+        "Administracja Uczelni",
+        "Biuro Spraw Studenckich",
+        "Uniwersytet Otwarty",
+        "Ludowy Zespół Artystyczny ,,Promni”",
+        "Biuro Współpracy Międzynarodowej",
+        "Biuro Międzynarodowych Projektów Badawczych",
+        "Audytor Wenętrzny, Kontrola Wewnętrzna",
+        "Chór Akademicki",
+        "Biuro Prasowe",
+        "Biuro Międzynarodowych Projektów Badawczych",
+        "Sekcja Gospodarki Nieruchomościami",
+        "Sekcja Planowania i Analiz",
+        "Zespół Radców Prawnych",
+        "Sala Konferencyjna",
+        "Sala Wideokonferencyjna",
+        "Centrum Edukacji Mulitimedialnej",
+        "Biuro Nauki"
+      ]
+    },
+    "position": {
+      "latitude": "52.163903",
+      "longitude": "21.049483"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Budynek 9",
+    "descriptions": {
+      "text": [
+        "Aula Kryształowa",
+        "Bufet",
+        "Dział Gospodarczy nr III",
+        "Zespół Obsługi Audiowizualnej"
+      ]
+    },
+    "position": {
+      "latitude": "52.163377",
+      "longitude": "21.049097"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Budynek 10",
+    "descriptions": {
+      "text": [
+        "Administracja Uczelni",
+        "KURS-AR",
+        "Rada Doktorantów",
+        "Związek Kombatantów RP",
+        "Soli Deo",
+        "Studenckie organizacje międzynarodowe: (IAAS, IVSA)",
+        "Samorząd Studentów SGGW",
+        "AZS SGGW",
+        "Biuro Promocji",
+        "Ursynowski Uniwersytet III wieku im. Juliana Ursyn Niemcewicza",
+        "Biuro Karier i Monitorowania Losów Absolwentów",
+        "Sekcja Gospodarowania Zasobami Mieszkaniowymi i Użytkowymi",
+        "Sekcja Socjalna",
+        "Związek Nauczycielstwa Polskiego",
+        "Biuro Spraw Osobowych",
+        "Sekcja Zamówień Publicznych",
+        "Rodzinne Ogorody Działkowe",
+        "NSZZ Solidarność",
+        "Kasa Zapomogowo Pożyczkowa",
+        "Akademicki Klub Turystyczny PTTK nr 16",
+        "Sekcja Obsługi Teletechnicznej",
+        "Centrala Telefoniczna Uczelni"
+      ]
+    },
+    "position": {
+      "latitude": "52.163396",
+      "longitude": "21.047895"
+    }
+  },
+  {
+    "id": "11",
+    "name": "Budynek 11",
+    "descriptions": {
+      "text": [
+        "Kwestura",
+        "Bank",
+        "Inspektorat Bezpieczeństwa i Dozoru Mienia",
+        "Dział Płac i Stypendiów",
+        "Kasa",
+        "Dział Ewidencji Majątku",
+        "Kwestor",
+        "Dział Finansowy",
+        "Dział Kosztów i Analiz",
+        "Dział Księgowości"
+      ]
+    },
+    "position": {
+      "latitude": "52.16389",
+      "longitude": "21.047391"
+    }
+  },
+  {
+    "id": "12",
+    "name": "Budynek 12",
+    "descriptions": {
+      "text": [
+        "Rektorat",
+        "Sale Senatu",
+        "Biuro Podawcze",
+        "Biuro Promocji",
+        "Biuro Organizacyjne",
+        "Rektor",
+        "Kanclerz",
+        "Prorektorzy",
+        "Sala Konferencyjna",
+        "Sala Kominkowa",
+        "Klub Profesorski „Pałacyk”"
+      ]
+    },
+    "position": {
+      "latitude": "52.164693",
+      "longitude": "21.050448"
+    }
+  },
+  {
+    "id": "13",
+    "name": "Budynek 13",
+    "descriptions": {
+      "text": "Pracownie Sztuki Wydziału Ogrodnictwa, Biotechnologii i Architektury Krajobrazu"
+    },
+    "position": {
+      "latitude": "52.16366",
+      "longitude": "21.05062"
+    }
+  },
+  {
+    "id": "15",
+    "name": "Budynek 15",
+    "descriptions": {
+      "text": [
+        "Administracja Uczelni",
+        "Inspektorat Ochrony Przeciwpożarowej",
+        "Dział Inwestycji i Nadzoru Technicznego",
+        "Inspektorat Bezpieczeństwa i Higieny Pracy",
+        "Dział Obsługi Ogólnej i Zaopatrzenia",
+        "Magazyn",
+        "Dział Remontów i Konserwacji"
+      ]
+    },
+    "position": {
+      "latitude": "52.163173",
+      "longitude": "21.05106"
+    }
+  },
+  {
+    "id": "16",
+    "name": "Budynek 16",
+    "descriptions": {
+      "text": [
+        "Wydział Technologii Drewna",
+        "Hala Maszyn Wydziału Technologii Drewna"
+      ]
+    },
+    "position": {
+      "latitude": "52.161435",
+      "longitude": "21.053184"
+    }
+  },
+  {
+    "id": "17",
+    "name": "Budynek 17",
+    "descriptions": { "text": "Wydział Inżynierii Produkcji" },
+    "position": {
+      "latitude": "52.160955",
+      "longitude": "21.052004"
+    }
+  },
+  {
+    "id": "18",
+    "name": "Budynek 18",
+    "descriptions": {
+      "text": ["Wydział Inżynierii Produkcji", "Bufet"]
+    },
+    "position": {
+      "latitude": "52.160553",
+      "longitude": "21.052208"
+    }
+  },
+  {
+    "id": "19",
+    "name": "Budynek 19",
+    "descriptions": { "text": "Wydział Inżynierii Produkcji" },
+    "position": {
+      "latitude": "52.160224",
+      "longitude": "21.052562"
+    }
+  },
+  {
+    "id": "20",
+    "name": "Budynek 20",
+    "descriptions": {
+      "text": [
+        "Hala Maszyn Wydziału Inżynierii Produkcji",
+        "Stacja Kontroli Pojazdów"
+      ]
+    },
+    "position": {
+      "latitude": "52.160639",
+      "longitude": "21.053656"
+    }
+  },
+  {
+    "id": "21",
+    "name": "Budynek 21",
+    "descriptions": { "text": "Wydział Inżynierii Produkcji" },
+    "position": {
+      "latitude": "52.160132",
+      "longitude": "21.051832"
+    }
+  },
+  {
+    "id": "22",
+    "name": "Budynek 22",
+    "descriptions": {
+      "text": [
+        "Klinika Małych Zwierząt",
+        "Audytorium",
+        "Dziekanat ds. Studiów Obcojęzycznych"
+      ]
+    },
+    "position": {
+      "latitude": "52.160046",
+      "longitude": "21.048238"
+    }
+  },
+  {
+    "id": "23",
+    "name": "Budynek 23",
+    "descriptions": {
+      "text": [
+        "Wydział Medycyny Weterynaryjnej",
+        "Wydział Nauk o Zwierzętach",
+        "Centrum Analityczne ",
+        "Bufet"
+      ]
+    },
+    "position": {
+      "latitude": "52.158348",
+      "longitude": "21.047294"
+    }
+  },
+  {
+    "id": "24",
+    "name": "Budynek 24",
+    "descriptions": {
+      "text": [
+        "Wydział Medycyny Weterynaryjnej",
+        "Bufet",
+        "Dział Gospodarczy nr II"
+      ]
+    },
+    "position": {
+      "latitude": "52.159704",
+      "longitude": "21.046908"
+    }
+  },
+  {
+    "id": "25",
+    "name": "Budynek 25",
+    "descriptions": { "text": "Zwierzętarnia" },
+    "position": {
+      "latitude": "52.158803",
+      "longitude": "21.045449"
+    }
+  },
+  {
+    "id": "26",
+    "name": "Budynek 26",
+    "descriptions": {
+      "text": ["Hala sportowa", "Korty Tenisowe (wewnętrzny i zewnętrzny)"]
+    },
+    "position": {
+      "latitude": "52.15821",
+      "longitude": "21.045191"
+    }
+  },
+  {
+    "id": "27",
+    "name": "Budynek 27",
+    "descriptions": {
+      "text": [
+        "Obiekty Sportowe",
+        "Basen",
+        "Sauna",
+        "Solarium",
+        "Gabinet Masażu",
+        "Bar"
+      ]
+    },
+    "position": {
+      "latitude": "52.157664",
+      "longitude": "21.045406"
+    }
+  },
+  {
+    "id": "28",
+    "name": "Budynek 28",
+    "descriptions": {
+      "text": [
+        "Studium Wychowania Fizycznego i Sportu",
+        "Pokój Nauczycieli",
+        "Obiekty Sportowe",
+        "Sale Sportowe",
+        "Siłownia",
+        "Aerobik",
+        "Centrum Językowe",
+        "Bankomat"
+      ]
+    },
+    "position": {
+      "latitude": "52.157256",
+      "longitude": "21.044666"
+    }
+  },
+  {
+    "id": "29",
+    "name": "Budynek 29",
+    "descriptions": { "text": "Stacja Uzdatniania Wody" },
+    "position": {
+      "latitude": "52.158223",
+      "longitude": "21.043689"
+    }
+  },
+  {
+    "id": "30",
+    "name": "Budynek 30",
+    "descriptions": {
+      "text": [
+        "Administracja Uczelni ",
+        "Dział Obsługi Ogólnej i Zaopatrzenia",
+        "Dział Aparatury Naukowo-Dydaktycznej",
+        "Sekcja Konserwacji Zieleni"
+      ]
+    },
+    "position": {
+      "latitude": "52.158697",
+      "longitude": "21.044333"
+    }
+  },
+  {
+    "id": "31",
+    "name": "Budynek 31",
+    "descriptions": { "text": "Dział Remontów i Konserwacji" },
+    "position": {
+      "latitude": "52.159013",
+      "longitude": "21.044"
+    }
+  },
+  {
+    "id": "32",
+    "name": "Budynek 32",
+    "descriptions": {
+      "text": [
+        "Wydział Nauk o Żywności",
+        "Wydział Nauk o Żywieniu Człowieka i Konsumpcji",
+        "Bufet"
+      ]
+    },
+    "position": {
+      "latitude": "52.160178",
+      "longitude": "21.04459"
+    }
+  },
+  {
+    "id": "33",
+    "name": "Budynek 33",
+    "descriptions": { "text": "Wydział Budownictwa i Inżynierii Środowiska" },
+    "position": {
+      "latitude": "52.161086",
+      "longitude": "21.046329"
+    }
+  },
+  {
+    "id": "34",
+    "name": "Budynek 34",
+    "descriptions": {
+      "text": [
+        "Wydział Leśny",
+        "Wydział Technologii Drewna",
+        "Wydział Zastosowań Informatyki i Matematyki",
+        "Biuro Organizacyjne - Kancelaria",
+        "Bufet",
+        "Dział Gospodarczy nr I"
+      ]
+    },
+    "position": {
+      "latitude": "52.162087",
+      "longitude": "21.046286"
+    }
+  },
+  {
+    "id": "35",
+    "name": "Budynek 35",
+    "descriptions": {
+      "text": [
+        "Wydział Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
+        "Wydział Nauk Społecznych",
+        "Sala konferencyjna",
+        "Bufet"
+      ]
+    },
+    "position": {
+      "latitude": "52.160389",
+      "longitude": "21.042595"
+    }
+  },
+  {
+    "id": "37",
+    "name": "Budynek 37",
+    "descriptions": {
+      "text": [
+        "Wydział Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
+        "Wydział Rolnictwa i Biologii",
+        "Bufet"
+      ]
+    },
+    "position": {
+      "latitude": "52.161916",
+      "longitude": "21.042681"
+    }
+  },
+  {
+    "id": "38",
+    "name": "Budynek 38",
+    "descriptions": {
+      "text": [
+        "Dom studencki LIMBA",
+        "Administracja Domów i Stołówek Studenckich",
+        "Przychodnia lekarska",
+        "Apteka",
+        "Stołówka Studencka przy DS LIMBA"
+      ]
+    },
+    "position": {
+      "latitude": "52.162975",
+      "longitude": "21.039151"
+    }
+  },
+  {
+    "id": "39",
+    "name": "Budynek 39",
+    "descriptions": {
+      "text": ["Hotel IKAR", "Bufet"]
+    },
+    "position": {
+      "latitude": "52.163482",
+      "longitude": "21.038647"
+    }
+  },
+  {
+    "id": "40",
+    "name": "Budynek 40",
+    "descriptions": { "text": "Dom studencki HILTON" },
+    "position": {
+      "latitude": "52.164074",
+      "longitude": "21.040717"
+    }
+  },
+  {
+    "id": "41",
+    "name": "Budynek 41",
+    "descriptions": {
+      "text": ["Dom studencki GRAND", "Przedszkole"]
+    },
+    "position": {
+      "latitude": "52.163712",
+      "longitude": "21.0412"
+    }
+  },
+  {
+    "id": "42",
+    "name": "Budynek 42",
+    "descriptions": { "text": "Dom studencki EDEN" },
+    "position": {
+      "latitude": "52.164101",
+      "longitude": "21.041511"
+    }
+  },
+  {
+    "id": "43",
+    "name": "Budynek 43",
+    "descriptions": { "text": "Dom studencki FENIKS" },
+    "position": {
+      "latitude": "52.163726",
+      "longitude": "21.042037"
+    }
+  },
+  {
+    "id": "44",
+    "name": "Budynek 44",
+    "descriptions": { "text": "Dom studencki BAZYLISZEK" },
+    "position": {
+      "latitude": "52.163739",
+      "longitude": "21.042831"
+    }
+  },
+  {
+    "id": "45",
+    "name": "Budynek 45",
+    "descriptions": {
+      "text": ["Dom studencki ADARA", "Siłownia SWFiS"]
+    },
+    "position": {
+      "latitude": "52.164068",
+      "longitude": "21.04238"
+    }
+  },
+  {
+    "id": "46",
+    "name": "Budynek 46",
+    "descriptions": { "text": "Dom studencki CEZAR" },
+    "position": {
+      "latitude": "52.164041",
+      "longitude": "21.043282"
+    }
+  },
+  {
+    "id": "47",
+    "name": "Budynek 47",
+    "descriptions": {
+      "text": [
+        "Dom studencki DENDRYT",
+        "Stołówka Studencka przy DS DENDRYT",
+        "Sklep",
+        "Bankomat EURONET"
+      ]
+    },
+    "position": {
+      "latitude": "52.163772",
+      "longitude": "21.043732"
+    }
+  },
+  {
+    "id": "48",
+    "name": "Budynek 48",
+    "descriptions": {
+      "text": [
+        "Biblioteka Główna",
+        "Oddział Informacji Naukowej ",
+        "Czytelnia",
+        "Czytelnia Dydaktyczna",
+        "Wypożyczalnia",
+        "Muzeum SGGW",
+        "Księgarnia",
+        "Kawiarnia"
+      ]
+    },
+    "position": {
+      "latitude": "52.164022",
+      "longitude": "21.044569"
+    }
+  },
+  {
+    "id": "49",
+    "name": "Budynek 49",
+    "descriptions": {
+      "text": [
+        "Centrum Wodne Wydziału Budownictwa i Inżynierii Środowiska",
+        "Sala Wystawowa"
+      ]
+    },
+    "position": {
+      "latitude": "52.159059",
+      "longitude": "21.049075"
+    }
+  },
+  {
+    "id": "50",
+    "name": "Budynek 50",
+    "descriptions": { "text": "Ogród Bylinowy" },
+    "position": {
+      "latitude": "52.162646",
+      "longitude": "21.052701"
+    }
+  },
+  {
+    "id": "51",
+    "name": "Pomnik, 51",
+    "descriptions": { "text": "Pomnik hrabiego Edwarda Raczyńskiego" },
+    "position": {
+      "latitude": "52.164704",
+      "longitude": "21.050086"
+    }
+  },
+  {
+    "id": "52",
+    "name": "Pomnik, 52",
+    "descriptions": { "text": "Pomnik Juliana Ursyna Niemcewicza" },
+    "position": {
+      "latitude": "52.163801",
+      "longitude": "21.048505"
+    }
+  },
+  {
+    "id": "53",
+    "name": "Pomnik, 53",
+    "descriptions": { "text": "Pomnik Władysława Grabskiego" },
+    "position": {
+      "latitude": "52.164408",
+      "longitude": "21.045541"
+    }
+  },
+  {
+    "id": "54",
+    "name": "Miejsce, 54",
+    "descriptions": {
+      "text": ["Pomnik Stanisława Wawrzyńca Staszica", "Parking Podziemnny"]
+    },
+    "position": {
+      "latitude": "52.162343",
+      "longitude": "21.045988"
+    }
+  },
+  {
+    "id": "55",
+    "name": "Pomnik, 55",
+    "descriptions": { "text": "Pomnik Dąb Jana Pawła II" },
+    "position": {
+      "latitude": "52.163602",
+      "longitude": "21.044865"
+    }
+  },
+  {
+    "id": "161",
+    "name": "Dziekanat 161",
+    "descriptions": { "text": "Klub Dziekanat 161" },
+    "position": {
+      "latitude": "52.162479",
+      "longitude": "21.039685"
+    },
+    "markerImageName": "dziekanat161"
   }
-}
 ]
