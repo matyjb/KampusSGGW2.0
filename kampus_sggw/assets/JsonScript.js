@@ -2,13 +2,45 @@ const fs = require('fs');
 var oldjson = require("./budynki.json");
 
 var newjson = oldjson.map(e => {
+  if (Array.isArray(e.descriptions.text)) {
+    places = [];
+    e.descriptions.text.map(el => {
+      name = el;
+      let lat = 0;
+      let lon = 0;
+      let floor = "0";
+      places.push({
+        name,
+        lat,
+        lon,
+        floor
+      });
+    });
+  }
+  else {
+    name = e.descriptions.text;
+    let lat = 0;
+    let lon = 0;
+    let floor = "0";
+    places = {
+      name,
+      lat,
+      lon,
+      floor
+    };
+  }
+  id = e.id;
+  name = e.name;
+  lat = Number(e.position.latitude);
+  lon = Number(e.position.longitude);
   return {
-    // tu musisz dać tą reprezentacje jednego budynku co dałem na githubie
-    // w starym jsonie tam gdzie jest descriptions.text to ten text nie jest zawsze tablicą więc użyj Array.isArray(object) do sprawdzenia
-    // i jak nie jest to zrob z tego tablice z tym jednym "miejscem",
-    // jak jest to uzyj .map do przemapowania "text" na tablice z obiektami takimi jak na githubie dałem
+    id,
+    name,
+    places,
+    lat,
+    lon
   }
 });
 
 var jsonContent = JSON.stringify(newjson);
-fs.writeFile("budynki2.json", jsonContent, ()=>{});
+fs.writeFile("budynki2.json", jsonContent, () => { });

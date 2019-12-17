@@ -1,0 +1,1488 @@
+[
+    {
+        "id": "1",
+        "name": "Budynek 1",
+        "places": [
+            {
+                "name": "Centrum Informatyczne",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Laboratorium komputerowe",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Pokój Administratorów",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.16439,
+        "lon": 21.046822
+    },
+    {
+        "id": "2",
+        "name": "Budynek 2",
+        "places": [
+            {
+                "name": "Wydawnictwo SGGW",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sekretarz Wydawnictwa",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sprzedaż książek",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Centrum Innowacji i Transferu Technologii SGGW",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.164759,
+        "lon": 21.046522
+    },
+    {
+        "id": "3",
+        "name": "Budynek 3",
+        "places": {
+            "name": "Wydział Nauk Ekonomicznych",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.165009,
+        "lon": 21.047144
+    },
+    {
+        "id": "4",
+        "name": "Budynek 4",
+        "places": {
+            "name": "Wydział Nauk Społecznych",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.165391,
+        "lon": 21.047831
+    },
+    {
+        "id": "5",
+        "name": "Budynek 5",
+        "places": {
+            "name": "Wydział Nauk Ekonomicznych",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.165206,
+        "lon": 21.048453
+    },
+    {
+        "id": "6",
+        "name": "Budynek 6",
+        "places": [
+            {
+                "name": "Wydział Nauk Ekonomicznych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.164469,
+        "lon": 21.047895
+    },
+    {
+        "id": "7",
+        "name": "Budynek 7",
+        "places": [
+            {
+                "name": "Wydział Nauk Ekonomicznych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Klub Żeglarski",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.164535,
+        "lon": 21.048775
+    },
+    {
+        "id": "8",
+        "name": "Budynek 8",
+        "places": [
+            {
+                "name": "Administracja Uczelni",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Spraw Studenckich",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Uniwersytet Otwarty",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Ludowy Zespół Artystyczny ,,Promni”",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Współpracy Międzynarodowej",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Międzynarodowych Projektów Badawczych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Audytor Wenętrzny, Kontrola Wewnętrzna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Chór Akademicki",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Prasowe",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Międzynarodowych Projektów Badawczych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sekcja Gospodarki Nieruchomościami",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sekcja Planowania i Analiz",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Zespół Radców Prawnych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sala Konferencyjna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sala Wideokonferencyjna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Centrum Edukacji Mulitimedialnej",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Nauki",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.163903,
+        "lon": 21.049483
+    },
+    {
+        "id": "9",
+        "name": "Budynek 9",
+        "places": [
+            {
+                "name": "Aula Kryształowa",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Gospodarczy nr III",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Zespół Obsługi Audiowizualnej",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.163377,
+        "lon": 21.049097
+    },
+    {
+        "id": "10",
+        "name": "Budynek 10",
+        "places": [
+            {
+                "name": "Administracja Uczelni",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "KURS-AR",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Rada Doktorantów",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Związek Kombatantów RP",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Soli Deo",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Studenckie organizacje międzynarodowe: (IAAS, IVSA)",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Samorząd Studentów SGGW",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "AZS SGGW",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Promocji",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Ursynowski Uniwersytet III wieku im. Juliana Ursyn Niemcewicza",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Karier i Monitorowania Losów Absolwentów",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sekcja Gospodarowania Zasobami Mieszkaniowymi i Użytkowymi",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sekcja Socjalna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Związek Nauczycielstwa Polskiego",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Spraw Osobowych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sekcja Zamówień Publicznych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Rodzinne Ogorody Działkowe",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "NSZZ Solidarność",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Kasa Zapomogowo Pożyczkowa",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Akademicki Klub Turystyczny PTTK nr 16",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sekcja Obsługi Teletechnicznej",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Centrala Telefoniczna Uczelni",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.163396,
+        "lon": 21.047895
+    },
+    {
+        "id": "11",
+        "name": "Budynek 11",
+        "places": [
+            {
+                "name": "Kwestura",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bank",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Inspektorat Bezpieczeństwa i Dozoru Mienia",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Płac i Stypendiów",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Kasa",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Ewidencji Majątku",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Kwestor",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Finansowy",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Kosztów i Analiz",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Księgowości",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.16389,
+        "lon": 21.047391
+    },
+    {
+        "id": "12",
+        "name": "Budynek 12",
+        "places": [
+            {
+                "name": "Rektorat",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sale Senatu",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Podawcze",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Promocji",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Organizacyjne",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Rektor",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Kanclerz",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Prorektorzy",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sala Konferencyjna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sala Kominkowa",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Klub Profesorski „Pałacyk”",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.164693,
+        "lon": 21.050448
+    },
+    {
+        "id": "13",
+        "name": "Budynek 13",
+        "places": {
+            "name": "Pracownie Sztuki Wydziału Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.16366,
+        "lon": 21.05062
+    },
+    {
+        "id": "15",
+        "name": "Budynek 15",
+        "places": [
+            {
+                "name": "Administracja Uczelni",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Inspektorat Ochrony Przeciwpożarowej",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Inwestycji i Nadzoru Technicznego",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Inspektorat Bezpieczeństwa i Higieny Pracy",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Obsługi Ogólnej i Zaopatrzenia",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Magazyn",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Remontów i Konserwacji",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.163173,
+        "lon": 21.05106
+    },
+    {
+        "id": "16",
+        "name": "Budynek 16",
+        "places": [
+            {
+                "name": "Wydział Technologii Drewna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Hala Maszyn Wydziału Technologii Drewna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.161435,
+        "lon": 21.053184
+    },
+    {
+        "id": "17",
+        "name": "Budynek 17",
+        "places": {
+            "name": "Wydział Inżynierii Produkcji",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.160955,
+        "lon": 21.052004
+    },
+    {
+        "id": "18",
+        "name": "Budynek 18",
+        "places": [
+            {
+                "name": "Wydział Inżynierii Produkcji",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.160553,
+        "lon": 21.052208
+    },
+    {
+        "id": "19",
+        "name": "Budynek 19",
+        "places": {
+            "name": "Wydział Inżynierii Produkcji",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.160224,
+        "lon": 21.052562
+    },
+    {
+        "id": "20",
+        "name": "Budynek 20",
+        "places": [
+            {
+                "name": "Hala Maszyn Wydziału Inżynierii Produkcji",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Stacja Kontroli Pojazdów",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.160639,
+        "lon": 21.053656
+    },
+    {
+        "id": "21",
+        "name": "Budynek 21",
+        "places": {
+            "name": "Wydział Inżynierii Produkcji",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.160132,
+        "lon": 21.051832
+    },
+    {
+        "id": "22",
+        "name": "Budynek 22",
+        "places": [
+            {
+                "name": "Klinika Małych Zwierząt",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Audytorium",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dziekanat ds. Studiów Obcojęzycznych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.160046,
+        "lon": 21.048238
+    },
+    {
+        "id": "23",
+        "name": "Budynek 23",
+        "places": [
+            {
+                "name": "Wydział Medycyny Weterynaryjnej",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Wydział Nauk o Zwierzętach",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Centrum Analityczne ",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.158348,
+        "lon": 21.047294
+    },
+    {
+        "id": "24",
+        "name": "Budynek 24",
+        "places": [
+            {
+                "name": "Wydział Medycyny Weterynaryjnej",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Gospodarczy nr II",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.159704,
+        "lon": 21.046908
+    },
+    {
+        "id": "25",
+        "name": "Budynek 25",
+        "places": {
+            "name": "Zwierzętarnia",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.158803,
+        "lon": 21.045449
+    },
+    {
+        "id": "26",
+        "name": "Budynek 26",
+        "places": [
+            {
+                "name": "Hala sportowa",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Korty Tenisowe (wewnętrzny i zewnętrzny)",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.15821,
+        "lon": 21.045191
+    },
+    {
+        "id": "27",
+        "name": "Budynek 27",
+        "places": [
+            {
+                "name": "Obiekty Sportowe",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Basen",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sauna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Solarium",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Gabinet Masażu",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bar",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.157664,
+        "lon": 21.045406
+    },
+    {
+        "id": "28",
+        "name": "Budynek 28",
+        "places": [
+            {
+                "name": "Studium Wychowania Fizycznego i Sportu",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Pokój Nauczycieli",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Obiekty Sportowe",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sale Sportowe",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Siłownia",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Aerobik",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Centrum Językowe",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bankomat",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.157256,
+        "lon": 21.044666
+    },
+    {
+        "id": "29",
+        "name": "Budynek 29",
+        "places": {
+            "name": "Stacja Uzdatniania Wody",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.158223,
+        "lon": 21.043689
+    },
+    {
+        "id": "30",
+        "name": "Budynek 30",
+        "places": [
+            {
+                "name": "Administracja Uczelni ",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Obsługi Ogólnej i Zaopatrzenia",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Aparatury Naukowo-Dydaktycznej",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sekcja Konserwacji Zieleni",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.158697,
+        "lon": 21.044333
+    },
+    {
+        "id": "31",
+        "name": "Budynek 31",
+        "places": {
+            "name": "Dział Remontów i Konserwacji",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.159013,
+        "lon": 21.044
+    },
+    {
+        "id": "32",
+        "name": "Budynek 32",
+        "places": [
+            {
+                "name": "Wydział Nauk o Żywności",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Wydział Nauk o Żywieniu Człowieka i Konsumpcji",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.160178,
+        "lon": 21.04459
+    },
+    {
+        "id": "33",
+        "name": "Budynek 33",
+        "places": {
+            "name": "Wydział Budownictwa i Inżynierii Środowiska",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.161086,
+        "lon": 21.046329
+    },
+    {
+        "id": "34",
+        "name": "Budynek 34",
+        "places": [
+            {
+                "name": "Wydział Leśny",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Wydział Technologii Drewna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Wydział Zastosowań Informatyki i Matematyki",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Biuro Organizacyjne - Kancelaria",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Dział Gospodarczy nr I",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.162087,
+        "lon": 21.046286
+    },
+    {
+        "id": "35",
+        "name": "Budynek 35",
+        "places": [
+            {
+                "name": "Wydział Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Wydział Nauk Społecznych",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sala konferencyjna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.160389,
+        "lon": 21.042595
+    },
+    {
+        "id": "37",
+        "name": "Budynek 37",
+        "places": [
+            {
+                "name": "Wydział Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Wydział Rolnictwa i Biologii",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.161916,
+        "lon": 21.042681
+    },
+    {
+        "id": "38",
+        "name": "Budynek 38",
+        "places": [
+            {
+                "name": "Dom studencki LIMBA",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Administracja Domów i Stołówek Studenckich",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Przychodnia lekarska",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Apteka",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Stołówka Studencka przy DS LIMBA",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.162975,
+        "lon": 21.039151
+    },
+    {
+        "id": "39",
+        "name": "Budynek 39",
+        "places": [
+            {
+                "name": "Hotel IKAR",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bufet",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.163482,
+        "lon": 21.038647
+    },
+    {
+        "id": "40",
+        "name": "Budynek 40",
+        "places": {
+            "name": "Dom studencki HILTON",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.164074,
+        "lon": 21.040717
+    },
+    {
+        "id": "41",
+        "name": "Budynek 41",
+        "places": [
+            {
+                "name": "Dom studencki GRAND",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Przedszkole",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.163712,
+        "lon": 21.0412
+    },
+    {
+        "id": "42",
+        "name": "Budynek 42",
+        "places": {
+            "name": "Dom studencki EDEN",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.164101,
+        "lon": 21.041511
+    },
+    {
+        "id": "43",
+        "name": "Budynek 43",
+        "places": {
+            "name": "Dom studencki FENIKS",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.163726,
+        "lon": 21.042037
+    },
+    {
+        "id": "44",
+        "name": "Budynek 44",
+        "places": {
+            "name": "Dom studencki BAZYLISZEK",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.163739,
+        "lon": 21.042831
+    },
+    {
+        "id": "45",
+        "name": "Budynek 45",
+        "places": [
+            {
+                "name": "Dom studencki ADARA",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Siłownia SWFiS",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.164068,
+        "lon": 21.04238
+    },
+    {
+        "id": "46",
+        "name": "Budynek 46",
+        "places": {
+            "name": "Dom studencki CEZAR",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.164041,
+        "lon": 21.043282
+    },
+    {
+        "id": "47",
+        "name": "Budynek 47",
+        "places": [
+            {
+                "name": "Dom studencki DENDRYT",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Stołówka Studencka przy DS DENDRYT",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sklep",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Bankomat EURONET",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.163772,
+        "lon": 21.043732
+    },
+    {
+        "id": "48",
+        "name": "Budynek 48",
+        "places": [
+            {
+                "name": "Biblioteka Główna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Oddział Informacji Naukowej ",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Czytelnia",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Czytelnia Dydaktyczna",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Wypożyczalnia",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Muzeum SGGW",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Księgarnia",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Kawiarnia",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.164022,
+        "lon": 21.044569
+    },
+    {
+        "id": "49",
+        "name": "Budynek 49",
+        "places": [
+            {
+                "name": "Centrum Wodne Wydziału Budownictwa i Inżynierii Środowiska",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Sala Wystawowa",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.159059,
+        "lon": 21.049075
+    },
+    {
+        "id": "50",
+        "name": "Budynek 50",
+        "places": {
+            "name": "Ogród Bylinowy",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.162646,
+        "lon": 21.052701
+    },
+    {
+        "id": "51",
+        "name": "Pomnik, 51",
+        "places": {
+            "name": "Pomnik hrabiego Edwarda Raczyńskiego",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.164704,
+        "lon": 21.050086
+    },
+    {
+        "id": "52",
+        "name": "Pomnik, 52",
+        "places": {
+            "name": "Pomnik Juliana Ursyna Niemcewicza",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.163801,
+        "lon": 21.048505
+    },
+    {
+        "id": "53",
+        "name": "Pomnik, 53",
+        "places": {
+            "name": "Pomnik Władysława Grabskiego",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.164408,
+        "lon": 21.045541
+    },
+    {
+        "id": "54",
+        "name": "Miejsce, 54",
+        "places": [
+            {
+                "name": "Pomnik Stanisława Wawrzyńca Staszica",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            },
+            {
+                "name": "Parking Podziemnny",
+                "lat": 0,
+                "lon": 0,
+                "floor": "0"
+            }
+        ],
+        "lat": 52.162343,
+        "lon": 21.045988
+    },
+    {
+        "id": "55",
+        "name": "Pomnik, 55",
+        "places": {
+            "name": "Pomnik Dąb Jana Pawła II",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.163602,
+        "lon": 21.044865
+    },
+    {
+        "id": "161",
+        "name": "Dziekanat 161",
+        "places": {
+            "name": "Klub Dziekanat 161",
+            "lat": 0,
+            "lon": 0,
+            "floor": "0"
+        },
+        "lat": 52.162479,
+        "lon": 21.039685
+    }
+]
