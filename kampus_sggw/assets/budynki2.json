@@ -7,21 +7,21 @@
         "places": [
             {
                 "name": "Centrum Informatyczne",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Laboratorium komputerowe",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Pokój Administratorów",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -33,27 +33,27 @@
         "places": [
             {
                 "name": "Wydawnictwo SGGW",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sekretarz Wydawnictwa",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sprzedaż książek",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Centrum Innowacji i Transferu Technologii SGGW",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -61,19 +61,43 @@
         "id": "3",
         "name": "Budynek 3",
         "lat": "52.165009",
-        "lon": "21.047144"
+        "lon": "21.047144",
+        "places": [
+            {
+                "name": "Wydział Nauk Ekonomicznych",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "4",
         "name": "Budynek 4",
         "lat": "52.165391",
-        "lon": "21.047831"
+        "lon": "21.047831",
+        "places": [
+            {
+                "name": "Wydział Nauk Społecznych",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "5",
         "name": "Budynek 5",
         "lat": "52.165206",
-        "lon": "21.048453"
+        "lon": "21.048453",
+        "places": [
+            {
+                "name": "Wydział Nauk Ekonomicznych",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "6",
@@ -83,15 +107,15 @@
         "places": [
             {
                 "name": "Wydział Nauk Ekonomicznych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -103,15 +127,15 @@
         "places": [
             {
                 "name": "Wydział Nauk Ekonomicznych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Klub Żeglarski",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -123,105 +147,105 @@
         "places": [
             {
                 "name": "Administracja Uczelni",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Spraw Studenckich",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Uniwersytet Otwarty",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Ludowy Zespół Artystyczny ,,Promni”",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Współpracy Międzynarodowej",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Międzynarodowych Projektów Badawczych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Audytor Wenętrzny, Kontrola Wewnętrzna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Chór Akademicki",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Prasowe",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Międzynarodowych Projektów Badawczych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sekcja Gospodarki Nieruchomościami",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sekcja Planowania i Analiz",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Zespół Radców Prawnych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sala Konferencyjna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sala Wideokonferencyjna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Centrum Edukacji Mulitimedialnej",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Nauki",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -233,27 +257,27 @@
         "places": [
             {
                 "name": "Aula Kryształowa",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Gospodarczy nr III",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Zespół Obsługi Audiowizualnej",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -265,135 +289,135 @@
         "places": [
             {
                 "name": "Administracja Uczelni",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "KURS-AR",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Rada Doktorantów",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Związek Kombatantów RP",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Soli Deo",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Studenckie organizacje międzynarodowe: (IAAS, IVSA)",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Samorząd Studentów SGGW",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "AZS SGGW",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Promocji",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Ursynowski Uniwersytet III wieku im. Juliana Ursyn Niemcewicza",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Karier i Monitorowania Losów Absolwentów",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sekcja Gospodarowania Zasobami Mieszkaniowymi i Użytkowymi",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sekcja Socjalna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Związek Nauczycielstwa Polskiego",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Spraw Osobowych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sekcja Zamówień Publicznych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Rodzinne Ogorody Działkowe",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "NSZZ Solidarność",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Kasa Zapomogowo Pożyczkowa",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Akademicki Klub Turystyczny PTTK nr 16",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sekcja Obsługi Teletechnicznej",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Centrala Telefoniczna Uczelni",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -405,63 +429,63 @@
         "places": [
             {
                 "name": "Kwestura",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bank",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Inspektorat Bezpieczeństwa i Dozoru Mienia",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Płac i Stypendiów",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Kasa",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Ewidencji Majątku",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Kwestor",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Finansowy",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Kosztów i Analiz",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Księgowości",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -473,69 +497,69 @@
         "places": [
             {
                 "name": "Rektorat",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sale Senatu",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Podawcze",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Promocji",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Organizacyjne",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Rektor",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Kanclerz",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Prorektorzy",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sala Konferencyjna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sala Kominkowa",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Klub Profesorski „Pałacyk”",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -543,7 +567,15 @@
         "id": "13",
         "name": "Budynek 13",
         "lat": "52.16366",
-        "lon": "21.05062"
+        "lon": "21.05062",
+        "places": [
+            {
+                "name": "Pracownie Sztuki Wydziału Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "15",
@@ -553,45 +585,45 @@
         "places": [
             {
                 "name": "Administracja Uczelni",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Inspektorat Ochrony Przeciwpożarowej",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Inwestycji i Nadzoru Technicznego",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Inspektorat Bezpieczeństwa i Higieny Pracy",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Obsługi Ogólnej i Zaopatrzenia",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Magazyn",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Remontów i Konserwacji",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -603,15 +635,15 @@
         "places": [
             {
                 "name": "Wydział Technologii Drewna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Hala Maszyn Wydziału Technologii Drewna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -619,7 +651,15 @@
         "id": "17",
         "name": "Budynek 17",
         "lat": "52.160955",
-        "lon": "21.052004"
+        "lon": "21.052004",
+        "places": [
+            {
+                "name": "Wydział Inżynierii Produkcji",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "18",
@@ -629,15 +669,15 @@
         "places": [
             {
                 "name": "Wydział Inżynierii Produkcji",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -645,7 +685,15 @@
         "id": "19",
         "name": "Budynek 19",
         "lat": "52.160224",
-        "lon": "21.052562"
+        "lon": "21.052562",
+        "places": [
+            {
+                "name": "Wydział Inżynierii Produkcji",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "20",
@@ -655,15 +703,15 @@
         "places": [
             {
                 "name": "Hala Maszyn Wydziału Inżynierii Produkcji",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Stacja Kontroli Pojazdów",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -671,7 +719,15 @@
         "id": "21",
         "name": "Budynek 21",
         "lat": "52.160132",
-        "lon": "21.051832"
+        "lon": "21.051832",
+        "places": [
+            {
+                "name": "Wydział Inżynierii Produkcji",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "22",
@@ -681,21 +737,21 @@
         "places": [
             {
                 "name": "Klinika Małych Zwierząt",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Audytorium",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dziekanat ds. Studiów Obcojęzycznych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -707,27 +763,27 @@
         "places": [
             {
                 "name": "Wydział Medycyny Weterynaryjnej",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Wydział Nauk o Zwierzętach",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Centrum Analityczne ",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -739,21 +795,21 @@
         "places": [
             {
                 "name": "Wydział Medycyny Weterynaryjnej",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Gospodarczy nr II",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -761,7 +817,15 @@
         "id": "25",
         "name": "Budynek 25",
         "lat": "52.158803",
-        "lon": "21.045449"
+        "lon": "21.045449",
+        "places": [
+            {
+                "name": "Zwierzętarnia",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "26",
@@ -771,15 +835,15 @@
         "places": [
             {
                 "name": "Hala sportowa",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Korty Tenisowe (wewnętrzny i zewnętrzny)",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -791,39 +855,39 @@
         "places": [
             {
                 "name": "Obiekty Sportowe",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Basen",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sauna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Solarium",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Gabinet Masażu",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bar",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -835,51 +899,51 @@
         "places": [
             {
                 "name": "Studium Wychowania Fizycznego i Sportu",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Pokój Nauczycieli",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Obiekty Sportowe",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sale Sportowe",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Siłownia",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Aerobik",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Centrum Językowe",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bankomat",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -887,7 +951,15 @@
         "id": "29",
         "name": "Budynek 29",
         "lat": "52.158223",
-        "lon": "21.043689"
+        "lon": "21.043689",
+        "places": [
+            {
+                "name": "Stacja Uzdatniania Wody",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "30",
@@ -897,27 +969,27 @@
         "places": [
             {
                 "name": "Administracja Uczelni ",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Obsługi Ogólnej i Zaopatrzenia",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Aparatury Naukowo-Dydaktycznej",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sekcja Konserwacji Zieleni",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -925,7 +997,15 @@
         "id": "31",
         "name": "Budynek 31",
         "lat": "52.159013",
-        "lon": "21.044"
+        "lon": "21.044",
+        "places": [
+            {
+                "name": "Dział Remontów i Konserwacji",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "32",
@@ -935,21 +1015,21 @@
         "places": [
             {
                 "name": "Wydział Nauk o Żywności",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Wydział Nauk o Żywieniu Człowieka i Konsumpcji",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -957,7 +1037,15 @@
         "id": "33",
         "name": "Budynek 33",
         "lat": "52.161086",
-        "lon": "21.046329"
+        "lon": "21.046329",
+        "places": [
+            {
+                "name": "Wydział Budownictwa i Inżynierii Środowiska",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "34",
@@ -967,39 +1055,39 @@
         "places": [
             {
                 "name": "Wydział Leśny",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Wydział Technologii Drewna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Wydział Zastosowań Informatyki i Matematyki",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Biuro Organizacyjne - Kancelaria",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Dział Gospodarczy nr I",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1011,27 +1099,27 @@
         "places": [
             {
                 "name": "Wydział Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Wydział Nauk Społecznych",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sala konferencyjna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1043,21 +1131,21 @@
         "places": [
             {
                 "name": "Wydział Ogrodnictwa, Biotechnologii i Architektury Krajobrazu",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Wydział Rolnictwa i Biologii",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1069,33 +1157,33 @@
         "places": [
             {
                 "name": "Dom studencki LIMBA",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Administracja Domów i Stołówek Studenckich",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Przychodnia lekarska",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Apteka",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Stołówka Studencka przy DS LIMBA",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1107,15 +1195,15 @@
         "places": [
             {
                 "name": "Hotel IKAR",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bufet",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1123,7 +1211,15 @@
         "id": "40",
         "name": "Budynek 40",
         "lat": "52.164074",
-        "lon": "21.040717"
+        "lon": "21.040717",
+        "places": [
+            {
+                "name": "Dom studencki HILTON",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "41",
@@ -1133,15 +1229,15 @@
         "places": [
             {
                 "name": "Dom studencki GRAND",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Przedszkole",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1149,19 +1245,43 @@
         "id": "42",
         "name": "Budynek 42",
         "lat": "52.164101",
-        "lon": "21.041511"
+        "lon": "21.041511",
+        "places": [
+            {
+                "name": "Dom studencki EDEN",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "43",
         "name": "Budynek 43",
         "lat": "52.163726",
-        "lon": "21.042037"
+        "lon": "21.042037",
+        "places": [
+            {
+                "name": "Dom studencki FENIKS",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "44",
         "name": "Budynek 44",
         "lat": "52.163739",
-        "lon": "21.042831"
+        "lon": "21.042831",
+        "places": [
+            {
+                "name": "Dom studencki BAZYLISZEK",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "45",
@@ -1171,15 +1291,15 @@
         "places": [
             {
                 "name": "Dom studencki ADARA",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Siłownia SWFiS",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1187,7 +1307,15 @@
         "id": "46",
         "name": "Budynek 46",
         "lat": "52.164041",
-        "lon": "21.043282"
+        "lon": "21.043282",
+        "places": [
+            {
+                "name": "Dom studencki CEZAR",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "47",
@@ -1197,27 +1325,27 @@
         "places": [
             {
                 "name": "Dom studencki DENDRYT",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Stołówka Studencka przy DS DENDRYT",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sklep",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Bankomat EURONET",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1229,51 +1357,51 @@
         "places": [
             {
                 "name": "Biblioteka Główna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Oddział Informacji Naukowej ",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Czytelnia",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Czytelnia Dydaktyczna",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Wypożyczalnia",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Muzeum SGGW",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Księgarnia",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Kawiarnia",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1285,15 +1413,15 @@
         "places": [
             {
                 "name": "Centrum Wodne Wydziału Budownictwa i Inżynierii Środowiska",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Sala Wystawowa",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1301,25 +1429,57 @@
         "id": "50",
         "name": "Budynek 50",
         "lat": "52.162646",
-        "lon": "21.052701"
+        "lon": "21.052701",
+        "places": [
+            {
+                "name": "Ogród Bylinowy",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "51",
         "name": "Pomnik, 51",
         "lat": "52.164704",
-        "lon": "21.050086"
+        "lon": "21.050086",
+        "places": [
+            {
+                "name": "Pomnik hrabiego Edwarda Raczyńskiego",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "52",
         "name": "Pomnik, 52",
         "lat": "52.163801",
-        "lon": "21.048505"
+        "lon": "21.048505",
+        "places": [
+            {
+                "name": "Pomnik Juliana Ursyna Niemcewicza",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "53",
         "name": "Pomnik, 53",
         "lat": "52.164408",
-        "lon": "21.045541"
+        "lon": "21.045541",
+        "places": [
+            {
+                "name": "Pomnik Władysława Grabskiego",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "54",
@@ -1329,15 +1489,15 @@
         "places": [
             {
                 "name": "Pomnik Stanisława Wawrzyńca Staszica",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             },
             {
                 "name": "Parking Podziemnny",
-                "lat": 0,
-                "lon": 0,
-                "floor": "0"
+                "lat": null,
+                "lon": null,
+                "floor": null
             }
         ]
     },
@@ -1345,12 +1505,28 @@
         "id": "55",
         "name": "Pomnik, 55",
         "lat": "52.163602",
-        "lon": "21.044865"
+        "lon": "21.044865",
+        "places": [
+            {
+                "name": "Pomnik Dąb Jana Pawła II",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     },
     {
         "id": "161",
         "name": "Dziekanat 161",
         "lat": "52.162479",
-        "lon": "21.039685"
+        "lon": "21.039685",
+        "places": [
+            {
+                "name": "Klub Dziekanat 161",
+                "lat": null,
+                "lon": null,
+                "floor": null
+            }
+        ]
     }
 ]
