@@ -1,20 +1,37 @@
 const fs = require('fs');
 var oldjson = require("./budynki.json");
 
+var json2 = oldjson.map(e => {
+  return {
+    name: e.name,
+    id: e.id,
+    lat: e.position.latitude,
+    lon: e.position.longitude,
+    places: Array.isArray(e.descriptions.text) ? e.descriptions.text.map(
+      el => {
+        return
+      }) :
+      [
+        {
+
+        }
+      ]
+  }
+})
+
 var newjson = oldjson.map(e => {
   if (Array.isArray(e.descriptions.text)) {
-    places = [];
-    e.descriptions.text.map(el => {
+    var places = e.descriptions.text.map(el => {
       name = el;
       let lat = 0;
       let lon = 0;
       let floor = "0";
-      places.push({
+      return {
         name,
         lat,
         lon,
         floor
-      });
+      };
     });
   }
   else {
