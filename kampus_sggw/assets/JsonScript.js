@@ -1,12 +1,12 @@
 const fs = require('fs');
-var oldjson = require("./budynki.json");
+var oldjson = require("./budynki_old.json");
 
 var newjson = oldjson.map(e => {
   return {
     id: e.id,
     name: e.name,
-    lat: e.position.latitude,
-    lon: e.position.longitude,
+    lat: Number(e.position.latitude),
+    lon: Number(e.position.longitude),
     places: Array.isArray(e.descriptions.text) ? e.descriptions.text.map(
       el => {
       return {
@@ -27,4 +27,4 @@ var newjson = oldjson.map(e => {
   }
 })
 var jsonContent = JSON.stringify(newjson);
-fs.writeFile("budynki2.json", jsonContent, () => { });
+fs.writeFile("budynki_new.json", jsonContent, () => { });
