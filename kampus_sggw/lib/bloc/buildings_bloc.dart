@@ -15,7 +15,7 @@ class BuildingsBloc extends Bloc<BuildingsEvent, List<Building>> {
   Stream<List<Building>> mapEventToState(BuildingsEvent event) async*{
     if(event == BuildingsEvent.init) {
       var _buildings = await _loadBuildings();
-      print(_buildings);
+      // print(_buildings);
       yield _buildings;
     }
   }
