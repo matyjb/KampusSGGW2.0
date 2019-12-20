@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:kampus_sggw/widgets/droplist.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);
@@ -10,22 +11,49 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(0.0),
-          child: AppBar(
-            backgroundColor: Colors.lightGreen,
-          )),
+        preferredSize: Size.fromHeight(0.0),
+        child: AppBar(
+          backgroundColor: Colors.lightGreen,
+        ),
+      ),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: FloatingActionButton(
+              heroTag: "btn1",
+              mini: true,
+              onPressed: () {},
+              foregroundColor: Colors.green[500],
+              backgroundColor: Colors.white,
+              child: Icon(
+                Icons.my_location,
+              ),
+            ),
+          ),
+          FloatingActionButton(
+            backgroundColor: Colors.green[500],
+            heroTag: "btn2",
+            child: Icon(
+              Icons.search,
+            ),
+            onPressed: () {},
+          ),
+        ],
+      ),
       body: Stack(
         children: [
           MapSample(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
+              DropList(),
               IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.settings),
-              ),
-              IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/buildingsList');
+                },
                 icon: Icon(Icons.list),
               ),
             ],
@@ -64,11 +92,6 @@ class MapSampleState extends State<MapSample> {
         onMapCreated: (GoogleMapController controller) {
           _controller.complete(controller);
         },
-      ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: _goToTheLake,
-        label: Text('To the lake!'),
-        icon: Icon(Icons.directions_boat),
       ),
     );
   }
