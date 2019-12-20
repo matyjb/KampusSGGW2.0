@@ -1,7 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:kampus_sggw/bloc/buildings_bloc.dart';
 import 'package:kampus_sggw/widgets/droplist.dart';
 
 class HomePage extends StatelessWidget {
@@ -9,6 +11,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final BuildingsBloc buildingsBloc = BlocProvider.of<BuildingsBloc>(context);
+    buildingsBloc.add(BuildingsEvent.init);
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(0.0),
