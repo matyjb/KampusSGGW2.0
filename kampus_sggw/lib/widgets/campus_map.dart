@@ -3,7 +3,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:kampus_sggw/bloc/buildings_bloc.dart';
+import 'package:kampus_sggw/models/building.dart';
 import 'package:location/location.dart';
 
 class CampusMap extends StatefulWidget {
@@ -77,9 +80,20 @@ class CampusMapState extends State<CampusMap> {
     this.initPlatformState();
   }
 
+  Set<Marker> _getMarkers(List<Building> buildings){
+    // w tej funkcji musisz zwrocic Set z elementami typu Marker
+    // Set to jest zbiór czyli taka Lista ale z unikalnymi elementami
+    // by dodac element do zbioru uzyj .add()
+    // jak tu:
+    // Set<Marker> s = new Set<Marker>();
+    // s.add(Marker());
+    //       ^^^^^^^^ oczywiście temu Markerowi dodaj pozycje taką jaka jest w buildings (argumencie tej funkcji)
+  }
+
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
+    final BuildingsBloc buildingsBloc = BlocProvider.of<BuildingsBloc>(context);
+    return Scaffold(
       body: GoogleMap(
         mapType: MapType.normal,
         initialCameraPosition: _sggw,
@@ -88,6 +102,7 @@ class CampusMapState extends State<CampusMap> {
         },
         myLocationEnabled: true,
         myLocationButtonEnabled: false,
+        markers: _getMarkers(buildingsBloc.state),
       ),
     );
   }
