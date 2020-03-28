@@ -1,4 +1,3 @@
-
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -13,11 +12,11 @@ class CampusMap extends StatefulWidget {
 
 class CampusMapState extends State<CampusMap> {
   Completer<GoogleMapController> _controller = Completer();
-  
+
   LocationData _startLocation;
   LocationData _currentLocation;
   StreamSubscription<LocationData> _locationSubscription;
-  Location _locationService  = new Location();
+  Location _locationService = new Location();
   bool _permission = false;
   String error;
 
@@ -27,8 +26,9 @@ class CampusMapState extends State<CampusMap> {
   );
 
   initPlatformState() async {
-    await _locationService.changeSettings(accuracy: LocationAccuracy.HIGH, interval: 2000);
-    
+    await _locationService.changeSettings(
+        accuracy: LocationAccuracy.HIGH, interval: 2000);
+
     LocationData location;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
@@ -40,8 +40,10 @@ class CampusMapState extends State<CampusMap> {
         if (_permission) {
           location = await _locationService.getLocation();
 
-          _locationSubscription = _locationService.onLocationChanged().listen((LocationData result) async {
-            if(mounted){
+          _locationSubscription = _locationService
+              .onLocationChanged()
+              .listen((LocationData result) async {
+            if (mounted) {
               setState(() {
                 _currentLocation = result;
               });
@@ -51,7 +53,7 @@ class CampusMapState extends State<CampusMap> {
       } else {
         bool serviceStatusResult = await _locationService.requestService();
         print("Service status activated after request: $serviceStatusResult");
-        if(serviceStatusResult){
+        if (serviceStatusResult) {
           initPlatformState();
         }
       }
@@ -68,7 +70,6 @@ class CampusMapState extends State<CampusMap> {
     setState(() {
       _startLocation = location;
     });
-
   }
 
   @override
@@ -79,7 +80,7 @@ class CampusMapState extends State<CampusMap> {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
+    return Scaffold(
       body: GoogleMap(
         mapType: MapType.normal,
         initialCameraPosition: _sggw,

@@ -5,21 +5,21 @@ import 'package:flutter/services.dart';
 
 import 'package:kampus_sggw/models/building.dart';
 
-enum BuildingsEvent {init}
+enum BuildingsEvent { init }
 
 class BuildingsBloc extends Bloc<BuildingsEvent, List<Building>> {
   @override
   List<Building> get initialState => [];
 
   @override
-  Stream<List<Building>> mapEventToState(BuildingsEvent event) async*{
-    if(event == BuildingsEvent.init) {
+  Stream<List<Building>> mapEventToState(BuildingsEvent event) async* {
+    if (event == BuildingsEvent.init) {
       var _buildings = await _loadBuildings();
       // print(_buildings);
       yield _buildings;
     }
   }
-  
+
   // List<Building> _buildings;
   // List<Building> get buildings => _buildings;
 
