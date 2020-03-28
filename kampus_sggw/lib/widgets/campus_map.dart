@@ -78,6 +78,22 @@ class CampusMapState extends State<CampusMap> {
     this.initPlatformState();
   }
 
+  Set<Marker> renderMarkers(){
+    // załadowac tego jsona
+    // dla kazdego z miejsc z jsonie dodać marker do Listy
+    // użyć toSet() na liście by wyrzucić Set, a nie List
+    return [
+          Marker(
+            markerId: MarkerId("1"),
+            position: LatLng(
+              52.161914, 21.046616
+            )
+          )
+        ].toSet();
+        // przykładowe ^
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -89,6 +105,7 @@ class CampusMapState extends State<CampusMap> {
         },
         myLocationEnabled: true,
         myLocationButtonEnabled: false,
+        markers: renderMarkers()
       ),
     );
   }
