@@ -15,7 +15,7 @@ class AboutPage extends StatelessWidget {
             padding: EdgeInsets.all(15.0),
             children: <Widget>[
               Image.asset(
-                "assets/logo znak zapytania.png",
+                "assets/logo.png",
                 width: 120,
                 height: 120,
               ),
