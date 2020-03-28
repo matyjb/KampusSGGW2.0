@@ -15,7 +15,7 @@ class AboutPage extends StatelessWidget {
             padding: EdgeInsets.all(15.0),
             children: <Widget>[
               Image.asset(
-                "assets/logo.png",
+                "assets/logo2.png",
                 width: 120,
                 height: 120,
               ),
@@ -35,10 +35,27 @@ class AboutPage extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
               ),
-              Text(
+              Padding(
+                padding: EdgeInsets.only(bottom: 10),
+              child: Text(
                 "Bartosz Matyjasiak\nWiktor El Attar\nMarta Mazurkiewicz\nAleksander Glebionek\nSzymon Prajzner\nJózef Stocki\nKatarzyna Podkowa",
                 style: TextStyle(fontSize: 17),
                 textAlign: TextAlign.center,
+              ),
+              ),
+              
+              Image.asset(
+                "assets/logo_plan_rounded.png",
+                width: 140,
+                height: 140,
+              ),
+              Padding(
+                padding: EdgeInsets.only(bottom: 10),
+              child: Text(
+                "Aplikacja Plan WZIM",
+                style: TextStyle(fontSize: 17),
+                textAlign: TextAlign.center,
+              ),
               ),
               Image.asset(
                 "assets/Square_normal.png",
