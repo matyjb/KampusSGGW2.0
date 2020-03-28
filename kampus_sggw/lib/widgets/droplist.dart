@@ -38,13 +38,9 @@ class _DropListState extends State<DropList> {
           onPressed: () {
             openDropList();
           },
-          
           icon: Icon(Icons.settings),
         ),
-        IconButton(
-          onPressed: (){},
-          icon: Icon(Icons.compare_arrows)
-        ),
+        IconButton(onPressed: () {}, icon: Icon(Icons.compare_arrows)),
         IconButton(
           onPressed: () {
             Navigator.pushNamed(context, '/about');
