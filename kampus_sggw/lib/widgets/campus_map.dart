@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:convert' as prefix0;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -79,9 +80,26 @@ class CampusMapState extends State<CampusMap> {
   }
 
   Set<Marker> renderMarkers(){
+/*  przykład:
+    List json = prefix0.jsonDecode("assets/budynki_new.json");
+    List toret;
+    for(var item in json)
+    {
+      toret.add(
+        Marker(
+            markerId: MarkerId(item.id),
+            position: LatLng(
+              item.lat, item.lon
+            )
+          ));
+    }
+    return toret.toSet();
+    
     // załadowac tego jsona
     // dla kazdego z miejsc z jsonie dodać marker do Listy
     // użyć toSet() na liście by wyrzucić Set, a nie List
+
+*/
     return [
           Marker(
             markerId: MarkerId("1"),
@@ -90,7 +108,7 @@ class CampusMapState extends State<CampusMap> {
             )
           )
         ].toSet();
-        // przykładowe ^
+
   }
 
 
