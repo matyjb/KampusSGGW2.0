@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
 class SearchBar extends StatelessWidget {
-  const SearchBar({Key key}) : super(key: key);
+  final FocusNode node;
+  const SearchBar({Key key, this.node}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
         width: MediaQuery.of(context).size.width * 0.7,
         height: 40,
-        child: new TextField(
+        child: TextField(
+          focusNode: node,
           style: TextStyle(color: Colors.black),
           decoration: InputDecoration(
             hintText: "Wyszukaj budynek",
