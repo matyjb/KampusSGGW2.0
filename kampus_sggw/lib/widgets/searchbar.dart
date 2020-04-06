@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/* 
+WidgetsBinding.instance.addPostFrameCallback((_){
+      FocusScope.of(context).requestFocus(myFocusNode);
+    });
+*/
 class SearchBar extends StatelessWidget {
   final FocusNode node;
   const SearchBar({Key key, this.node}) : super(key: key);

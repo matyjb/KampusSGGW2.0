@@ -48,60 +48,53 @@ class HomePage extends StatelessWidget {
             )
           ],
         ),
-        body: Container(child: BlocBuilder<SearchbarBloc, bool>(builder: (context, state) {
-          FocusNode myNode = FocusNode();
-          WidgetsBinding.instance.addPostFrameCallback((_) {
-            FocusScope.of(context).requestFocus(myNode);
-          });
-          if (state)
-            return Stack(
-              children: [
-                CampusMap(),
-                GestureDetector(
-                  onTap: () {
+        body: Stack(
+          children: [
+            CampusMap(),
+            BlocListener<SearchbarBloc, bool>(
+              listener: (context, state) {},
+              child:
+                  BlocBuilder<SearchbarBloc, bool>(builder: (context, state) {
+                if (state)
+                  return GestureDetector(onTap: () {
                     searchbarBloc.add(ShowHide.showhide);
+                  });
+                else
+                  return Container();
+              }),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                DropList(),
+                BlocListener<SearchbarBloc, bool>(
+                    listener: (context, state) {
+                    },
+                    child: BlocBuilder<SearchbarBloc, bool>(
+                        builder: (context, state) {
+                          FocusNode myFocusNode = FocusNode();
+                          WidgetsBinding.instance.addPostFrameCallback((_){
+                            FocusScope.of(context).requestFocus(myFocusNode);
+                          });
+                      if (state)
+                        return Padding(
+                          padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
+                          child: SearchBar(node: myFocusNode),
+                        );
+                      else
+                        return Container();
+                    })),
+                IconButton(
+                  onPressed: () {
+                    if (searchbarBloc.state) searchbarBloc.add(ShowHide.showhide);
+                    Navigator.pushNamed(context, '/buildingsList');
                   },
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    DropList(),
-                    Padding(
-                      padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
-                      child: SearchBar(node: myNode),
-                    ),
-                    IconButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, '/buildingsList');
-                        searchbarBloc.add(ShowHide.showhide);
-                      },
-                      icon: Icon(Icons.list),
-                    ),
-                  ],
+                  icon: Icon(Icons.list),
                 ),
               ],
-            );
-          else
-            return Stack(
-              children: [
-                CampusMap(),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    DropList(),
-                    IconButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, '/buildingsList');
-                      },
-                      icon: Icon(Icons.list),
-                    ),
-                  ],
-                ),
-              ],
-            );
-        })));
-        
+            ),
+          ],
+        ));
   }
 }

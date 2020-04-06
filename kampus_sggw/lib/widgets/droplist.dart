@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:kampus_sggw/bloc/searchbar_bloc.dart';
 
 class DropList extends StatefulWidget {
   @override
@@ -7,13 +9,7 @@ class DropList extends StatefulWidget {
 
 class _DropListState extends State<DropList> {
   void openDropList() {
-    setState(() {
-      if (toggled) {
-        toggled = !toggled;
-      } else {
-        toggled = !toggled;
-      }
-    });
+    setState(() { toggled = !toggled; });
   }
 
   Column turnedOff() {
@@ -43,6 +39,8 @@ class _DropListState extends State<DropList> {
         IconButton(onPressed: () {}, icon: Icon(Icons.compare_arrows)),
         IconButton(
           onPressed: () {
+            if(BlocProvider.of<SearchbarBloc>(context).state) BlocProvider.of<SearchbarBloc>(context).add(ShowHide.showhide);
+            openDropList();
             Navigator.pushNamed(context, '/about');
           },
           icon: Icon(Icons.help),
