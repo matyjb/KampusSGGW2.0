@@ -2,7 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:kampus_sggw/bloc/config_bloc.dart';
 import 'package:location/location.dart';
 
 class CampusMap extends StatefulWidget {
@@ -11,7 +13,8 @@ class CampusMap extends StatefulWidget {
 }
 
 class CampusMapState extends State<CampusMap> {
-  Completer<GoogleMapController> _controller = Completer();
+  GoogleMapController _controller;
+  bool isMapCreated = false;
 
   LocationData _startLocation;
   LocationData _currentLocation;
@@ -78,35 +81,55 @@ class CampusMapState extends State<CampusMap> {
     this.initPlatformState();
   }
 
-  Set<Marker> renderMarkers(){
+  Set<Marker> renderMarkers() {
     // załadowac tego jsona
     // dla kazdego z miejsc z jsonie dodać marker do Listy
     // użyć toSet() na liście by wyrzucić Set, a nie List
     return [
-          Marker(
-            markerId: MarkerId("1"),
-            position: LatLng(
-              52.161914, 21.046616
-            )
-          )
-        ].toSet();
-        // przykładowe ^
+      Marker(markerId: MarkerId("1"), position: LatLng(52.161914, 21.046616))
+    ].toSet();
+    // przykładowe ^
   }
 
+  changeMapStyle(ConfigBloc configBloc) {
+    switch (configBloc.state) {
+      case ThemeType.dark:
+        getJsonFile("assets/night_map.json").then(setMapStyle);
+        break;
+      case ThemeType.light:
+        setMapStyle("[]"); // standard map style
+        break;
+      default:
+    }
+  }
+
+  Future<String> getJsonFile(String path) async {
+    return await rootBundle.loadString(path);
+  }
+
+  void setMapStyle(String mapStyle) {
+    _controller.setMapStyle(mapStyle);
+  }
 
   @override
   Widget build(BuildContext context) {
+    final ConfigBloc configBloc = BlocProvider.of<ConfigBloc>(context);
+    if (isMapCreated) changeMapStyle(configBloc);
+
     return Scaffold(
       body: GoogleMap(
-        mapType: MapType.normal,
-        initialCameraPosition: _sggw,
-        onMapCreated: (GoogleMapController controller) {
-          _controller.complete(controller);
-        },
-        myLocationEnabled: true,
-        myLocationButtonEnabled: false,
-        markers: renderMarkers()
-      ),
+          mapType: MapType.normal,
+          initialCameraPosition: _sggw,
+          onMapCreated: (GoogleMapController controller) {
+            _controller = controller;
+            changeMapStyle(configBloc);
+            setState(() {
+              isMapCreated = true;
+            });
+          },
+          myLocationEnabled: true,
+          myLocationButtonEnabled: false,
+          markers: renderMarkers()),
     );
   }
 

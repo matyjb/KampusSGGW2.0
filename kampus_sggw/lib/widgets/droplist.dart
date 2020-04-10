@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:kampus_sggw/bloc/config_bloc.dart';
 
 class DropList extends StatefulWidget {
   @override
@@ -40,7 +42,19 @@ class _DropListState extends State<DropList> {
           },
           icon: Icon(Icons.settings),
         ),
-        IconButton(onPressed: () {}, icon: Icon(Icons.compare_arrows)),
+        Builder(builder: (context) {
+          ConfigBloc configBloc = BlocProvider.of<ConfigBloc>(context);
+          return IconButton(
+            onPressed: () {
+              if (configBloc.state == ThemeType.dark) {
+                configBloc.add(SetThemeEvent(ThemeType.light));
+              } else {
+                configBloc.add(SetThemeEvent(ThemeType.dark));
+              }
+            },
+            icon: Icon(Icons.compare_arrows),
+          );
+        }),
         IconButton(
           onPressed: () {
             Navigator.pushNamed(context, '/about');
