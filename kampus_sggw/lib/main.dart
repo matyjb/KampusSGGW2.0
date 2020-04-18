@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kampus_sggw/bloc/buildings_bloc.dart';
+import 'package:kampus_sggw/bloc/config_bloc.dart';
 import 'package:kampus_sggw/pages/about_page.dart';
 import 'package:kampus_sggw/pages/buildings_list_page.dart';
 import 'package:kampus_sggw/pages/home_page.dart';
@@ -12,14 +13,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<BuildingsBloc>(
-      create: (ctx) => BuildingsBloc(),
-      child: MaterialApp(
-        initialRoute: '/',
-        routes: {
-          '/': (context) => HomePage(),
-          '/about': (context) => AboutPage(),
-          '/buildingsList': (context) => BuildingsListPage()
-        },
+      create: (_) => BuildingsBloc(),
+      child: BlocProvider<ConfigBloc>(
+        create: (_) => ConfigBloc(),
+        child: BlocBuilder<ConfigBloc, ThemeType>(
+          builder: (_, state) => MaterialApp(
+            theme: (state == ThemeType.dark) ? ThemeData.dark().copyWith(accentColor: Colors.green[400]) : ThemeData.light(),
+            initialRoute: '/',
+            routes: {
+              '/': (_) => HomePage(),
+              '/about': (_) => AboutPage(),
+              '/buildingsList': (_) => BuildingsListPage()
+            },
+          ),
+        ),
       ),
     );
   }
