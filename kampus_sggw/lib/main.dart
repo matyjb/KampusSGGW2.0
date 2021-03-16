@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<BuildingsBloc>(
-      create: (_) => BuildingsBloc(),
+      create: (_) => BuildingsBloc([]),
       child: BlocProvider<ConfigBloc>(
-        create: (_) => ConfigBloc(),
+        create: (_) => ConfigBloc(ThemeType.light),
         child: BlocBuilder<ConfigBloc, ThemeType>(
           builder: (_, state) => MaterialApp(
             theme: (state == ThemeType.dark) ? ThemeData.dark().copyWith(accentColor: Colors.green[400]) : ThemeData.light(),

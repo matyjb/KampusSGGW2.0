@@ -11,6 +11,8 @@ class SetThemeEvent extends ConfigEvent {
 }
 
 class ConfigBloc extends Bloc<ConfigEvent, ThemeType> {
+  ConfigBloc(ThemeType initialState) : super(initialState);
+
   @override
   ThemeType get initialState => ThemeType.light;
 

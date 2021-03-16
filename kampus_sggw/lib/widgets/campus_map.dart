@@ -20,7 +20,7 @@ class CampusMapState extends State<CampusMap> {
   LocationData _currentLocation;
   StreamSubscription<LocationData> _locationSubscription;
   Location _locationService = new Location();
-  bool _permission = false;
+  PermissionStatus _permission = PermissionStatus.DENIED;
   String error;
 
   static final CameraPosition _sggw = CameraPosition(
@@ -40,7 +40,7 @@ class CampusMapState extends State<CampusMap> {
       if (serviceStatus) {
         _permission = await _locationService.requestPermission();
         print("Permission: $_permission");
-        if (_permission) {
+        if (_permission == PermissionStatus.GRANTED) {
           location = await _locationService.getLocation();
 
           _locationSubscription = _locationService

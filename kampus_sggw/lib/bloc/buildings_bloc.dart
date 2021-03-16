@@ -8,6 +8,8 @@ import 'package:kampus_sggw/models/building.dart';
 enum BuildingsEvent { init }
 
 class BuildingsBloc extends Bloc<BuildingsEvent, List<Building>> {
+  BuildingsBloc(List<Building> initialState) : super(initialState);
+
   @override
   List<Building> get initialState => [];
 
